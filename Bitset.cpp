@@ -7,7 +7,8 @@ int main()
 int number;
 cin>>number;
 bitset <4> bin(number);
-cout<<bin;
+//cout<<bin;
+cout<<bin.size()<<endl;
 return 0;
 }
 
